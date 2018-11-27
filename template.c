@@ -47,7 +47,7 @@ int read_lines_from_stdin() {
     hex_dump(buff);
     strcpy(input_lines[line], buff);
     line++;
-	}
+  }
 
   return 0;
 }
@@ -70,7 +70,7 @@ int read_lines_from_file() {
     hex_dump(buff);
     strcpy(input_lines[line], buff);
     line++;
-	}
+  }
 
   fclose(fp);
   return 0;
